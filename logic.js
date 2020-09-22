@@ -1,4 +1,7 @@
 console.log('JS connected')
+$('h1').on('click', function(){
+    console.log('jquery')
+})
 var settings = {
 	// "async": true,
 	// "crossDomain": true,
